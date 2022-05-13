@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": ["hello", "hey", "hi", "good day", "Greetings"],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "Good day",
+        "Anyong-haseyo",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "what's up?",
+        "how is it going?",
+        "how are you?",
+        "how are you doing?",
+        "how's everything",
+        "how goes it?"
+      ],
+      "responses": [
+        "What can I do for you?",
+        "I'm fine, thank you.",
+        "Fine, thank you.",
+        "Pretty good, thank you.",
+        "Great, thank you.",
+        "Wonderful, thanks.",
+        "I'm very well, thanks.",
+        "I'm all right, thanks."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "see you later",
+        "goodbye",
+        "I am leaving",
+        "cya",
+        "Have a good day",
+        "bye",
+        "see ya"
+      ],
+      "responses": ["See you later", "Talk to you later", "Goodbye!", "Bye!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "what is your age", "how old are you", "age?"],
+      "responses": ["I just born since 1st May", "Less than one month"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "whats your name?",
+        "who are you?",
+        "Can you tell me what is your name"
+      ],
+      "responses": [
+        "You can call me Joel!",
+        "I'm Joel!",
+        "I'm Joel the Chatbot!"
+      ]
+    },
+    {
+      "tag": "birthday",
+      "patterns": ["what is your birthday?", "what day that you was born?"],
+      "responses": ["1st May", "Sunday, 1st May"]
+    },
+    {
+      "tag": "robot",
+      "patterns": ["are you human?", "are you robot?", "you are a robot"],
+      "responses": ["Yes, I am a robot", "Yes, I am a chatbot"]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "do you know joke?",
+        "do you have any joke?",
+        "are you funny?"
+      ],
+      "responses": [
+        "What do kids play when their mom is using the phone? Bored games.",
+        "What do you call an ant who fights crime? A vigilANTe!",
+        "Why are snails slow? Because they're carrying a house on their back.",
+        "What's the smartest insect? A spelling bee!",
+        "What does a storm cloud wear under his raincoat? Thunderwear.",
+        "What is fast, loud and crunchy? A rocket chip.",
+        "How does the ocean say hi? It waves!",
+        "What do you call a couple of chimpanzees sharing an Amazon account? PRIME-mates.",
+        "Why did the teddy bear say no to dessert? Because she was stuffed.",
+        "Why did the soccer player take so long to eat dinner? Because he thought he couldn't use his hands."
+      ]
+    }
+  ]
+}

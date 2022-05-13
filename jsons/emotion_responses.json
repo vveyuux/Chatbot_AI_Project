@@ -1,0 +1,62 @@
+[
+  {
+    "Emotion": "anger",
+    "Responses": [
+      "In the mean time, you'd better calm down.",
+      "If you calm down you will experience less anger.",
+      "It is always best to calm down instead of letting the anger control your immediate actions.",
+      "The best thing to do is calm down and take a deep breath",
+      "You can also try to count down from 10, which also helps you calm down."
+    ]
+  },
+  {
+    "Emotion": "fear",
+    "Responses": [
+      "I know you have the courage. Don't fear it",
+      "The bad news is time flies. The good news is you're the pilot. So, Don't fear it",
+      "Life has got all those twists and turns. You've got to hold on tight and off you go.",
+      "Keep your face always toward the sunshine, and shadows will fall behind you.",
+      "Success is not final, failure is not fatal: it is the courage to continue that counts."
+    ]
+  },
+  {
+    "Emotion": "happy",
+    "Responses": [
+      "The purpose of our lives is to be happy.",
+      "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+      "Life is a succession of lessons which must be lived to be understood.",
+      "Life is like a coin. You can spend it any way you wish, but you only spend it once.",
+      "Keep smiling, because life is a beautiful thing and there's so much to smile about."
+    ]
+  },
+  {
+    "Emotion": "love",
+    "Responses": [
+      "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.",
+      "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+      "Love is that condition in which the happiness of another person is essential to your own.",
+      "If I had a flower for every time I thought of you… I could walk through my garden forever.",
+      "To the world you may be one person, but to one person you are the world."
+    ]
+  },
+  {
+    "Emotion": "sadness",
+    "Responses": [
+      "Rise and rise again until lambs become lions.",
+      "Instead of cursing the darkness, light a candle.",
+      "When everything feels like an uphill struggle just think of the view from the top.",
+      "Cheer up when the night comes, because mornings always give you another chance.",
+      "Being happy doesn't mean that everything is perfect. It simply means that you've decided to look beyond the imperfections of life."
+    ]
+  },
+  {
+    "Emotion": "surprise",
+    "Responses": [
+      "Surprise is the greatest gift which life can grant us.",
+      "Those who are easily shocked should be shocked more often.",
+      "How ridiculous and how strange to be surprised at anything which happens in life",
+      "Sometimes people surprise us. People we believe we know.",
+      "Surprise is key in all art."
+    ]
+  }
+]
