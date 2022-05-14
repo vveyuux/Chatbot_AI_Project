@@ -11,10 +11,10 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 datastore = json.loads(open('jsons/intents.json').read())
 emotionData = json.loads(open('jsons/emotions.json').read())
 
-BG_GREEN = '#4D4C7D'
-BG_COLOR = '#363062'
-NAME_COLOR = '#827397'
-TEXT_COLOR = '#E9D5DA'
+BG_NAVI = '#1A374D'
+BG_COLOR = '#406882'
+NAME_COLOR = '#6998AB'
+TEXT_COLOR = '#B1D0E0'
 
 FONT = 'Calibri 14'
 FONT_BOLD = 'Calibri 13 bold'
@@ -29,17 +29,17 @@ class ChatApp:
     def _setup_main_window(self):
         self.window.title('Chatbot Project')
         self.window.resizable(width=False, height=False)
-        self.window.configure(width=470, height=550, bg=BG_GREEN)
+        self.window.configure(width=470, height=550, bg=BG_NAVI)
         self.window.iconbitmap('assets/bot.ico')
 
-        head_label = Label(self.window, bg=BG_GREEN, fg=TEXT_COLOR, text='Emotion in text : Chatbot', font=FONT_BOLD, pady=10)
+        head_label = Label(self.window, bg=BG_NAVI, fg=TEXT_COLOR, text='Emotion in text : Chatbot', font=FONT_BOLD, pady=10)
 
         head_label.place(relwidth=1)
 
         line = Label(self.window, width=450, bg=BG_COLOR)
         line.place(relwidth=1, rely=0.07, relheight=0.012)
 
-        self.text_widget = Text(self.window, width=20, height=2, bg=BG_GREEN, fg=TEXT_COLOR, padx=5, pady=5, font=FONT_BOLD)
+        self.text_widget = Text(self.window, width=20, height=2, bg=BG_NAVI, fg=TEXT_COLOR, padx=5, pady=5, font=FONT_BOLD)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor='arrow', state=DISABLED)
 
@@ -47,7 +47,7 @@ class ChatApp:
         scrollbar.place(relheight=1, relx=0.974)
         scrollbar.configure(command=self.text_widget.yview)
 
-        bottom_label = Label(self.window, bg=BG_GREEN, height=80)
+        bottom_label = Label(self.window, bg=BG_NAVI, height=80)
         bottom_label.place(relwidth=1, rely=0.825)
         
         self.msg_entry = Entry(bottom_label, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT)
