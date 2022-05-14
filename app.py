@@ -55,7 +55,7 @@ class ChatApp:
         self.msg_entry.focus()
         self.msg_entry.bind('<Return>', self._on_enter_pressed)
 
-        send_button = Button(bottom_label, text='Send', font=FONT_BOLD, width=20, command=lambda: self._on_enter_pressed(None))
+        send_button = Button(bottom_label, text='Enter', font=FONT_BOLD, width=20, command=lambda: self._on_enter_pressed(None))
         send_button.place(relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22)
 
         if self.name == '':
