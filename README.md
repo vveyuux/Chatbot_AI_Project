@@ -16,7 +16,7 @@ By Veerayuth Bussararungsee 2010711102013
 **emotion_responses.json** | contained response text according to emotion.
 
 ## Assets folder
-Contained pickle file to use for predicating messages in **chatbot.py.
+Contained pickle file to use for predicating messages in **chatbot.py.**
 
 ## Model folder
 Contained chatbot model that was trained and created by **train.py** for using in **app.py**.
