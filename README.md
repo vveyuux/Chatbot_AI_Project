@@ -1,4 +1,4 @@
-# Chatbot_AI_Project
+# About Project
 The Chatbot that can figure out what emotion of text is.
 
 By Veerayuth Bussararungsee 2010711102013
