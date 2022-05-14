@@ -38,7 +38,7 @@ def bag_of_words(msg):
     return np.array(bag)
 
 def predict_class(msg):
-    bow = bag_of_words(msg)
+    bow = bag_of_words(msg.lower())
     res = model.predict(np.array([bow]))[0]
     ERROR_THRESHOLD = 0.25
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
