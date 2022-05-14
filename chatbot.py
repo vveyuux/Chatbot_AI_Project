@@ -64,6 +64,9 @@ def get_response(intents_list, intents_json, emotions_json):
                     break
     return result
 
+# For testing in terminal
+
+"""
 # Chatbot Start
 print('This is testing chatbot enjoy XD')
 name = input("Enter your name : ")
@@ -76,3 +79,4 @@ while True:
     if ints[0]['intent'] == 'goodbye':
         print('Chatbot shutdown')
         break
+"""
