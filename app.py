@@ -30,6 +30,7 @@ class ChatApp:
         self.window.title('Chatbot Project')
         self.window.resizable(width=False, height=False)
         self.window.configure(width=470, height=550, bg=BG_GREEN)
+        self.window.iconbitmap('assets/bot.ico')
 
         head_label = Label(self.window, bg=BG_GREEN, fg=TEXT_COLOR, text='Emotion in text : Chatbot', font=FONT_BOLD, pady=10)
 
@@ -38,7 +39,7 @@ class ChatApp:
         line = Label(self.window, width=450, bg=BG_COLOR)
         line.place(relwidth=1, rely=0.07, relheight=0.012)
 
-        self.text_widget = Text(self.window, width=20, height=2, bg=BG_GREEN, fg=TEXT_COLOR, padx=5, pady=5, font=FONT)
+        self.text_widget = Text(self.window, width=20, height=2, bg=BG_GREEN, fg=TEXT_COLOR, padx=5, pady=5, font=FONT_BOLD)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor='arrow', state=DISABLED)
 
